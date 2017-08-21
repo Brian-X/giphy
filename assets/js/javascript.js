@@ -9,7 +9,7 @@
     $("button").on("click", function() {
       // console.log("click");
       var animal = $(this).attr("data-animal");
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         animal + "&api_key=6ec45d7e0c534c378e710f74c71f2cc3&limit=15";
 
       $.ajax({
