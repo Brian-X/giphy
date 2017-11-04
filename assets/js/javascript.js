@@ -1,6 +1,6 @@
   // $(document).ready(function() {
 
-  var animalButton = ["dog", "cat", "rabbit", "hamster", "turtle", "octpus", "newt", "crocodile", "capybara", "aligator", "python", "horny toad", "tuatara",];
+  var animalButton = ["dog", "cat", "rabbit", "hamster", "turtle", "octopus", "newt", "crocodile", "capybara", "aligator", "python", "horny toad", "tuatara",];
     console.log(animalButton);
 
   function displayAnimal() {
